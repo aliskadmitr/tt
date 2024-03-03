@@ -67,6 +67,7 @@ for item_name, item_href in all_products.items():
         src = file.read()
     print(src)
     soup = BeautifulSoup(src, "lxml")
+    #comment
 
         #Создае папку data для хранения этих страниц
 
